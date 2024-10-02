@@ -1,21 +1,29 @@
+@font-face {
+    font-family: '3270';
+    src: url('https://kirito139.github.io/Stash/fonts/3270NerdFont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background-color: rgb(200,200,200);
-    color: rgb(0,0,0);
-    font-family: "Open Sans", sans-serif;
+    background-color: rgb(7,61,63);
+    color: rgb(255,255,255);
+    font-family: Arial, sans-serif;
     text-align: center;
 }
 
 #content {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+    display: flex;
+    justify-content: center;
 }
 
 header {
-	
+    font-family: '3270', "Courier New", monospace;
 }
 
 footer {
-	font-style: italic;
-	font-size: 90%;
+    font-family: Arial, sans-serif !important;
+    font-style: italic;
+    font-size: 90%;
 }
+
